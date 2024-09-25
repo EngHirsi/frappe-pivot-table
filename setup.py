@@ -22,5 +22,4 @@ setup(
 	zip_safe=False,
 	include_package_data=True,
 	
-	dependency_links=[str(ir._link) for ir in requirements if ir._link]
 )
